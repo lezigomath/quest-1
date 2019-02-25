@@ -1,0 +1,14 @@
+Debut nbbonbon (reel prix, reel argent, entier bonbon) 
+
+prix > 0
+argent > 0
+
+  Si prix < argent
+    retourner bonbon
+  
+  Tant que argent > 0 
+   argent <- argent - prix
+  
+  retourner somme bonbon
+  
+Fin nbbonbon
